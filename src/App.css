@@ -1,0 +1,9 @@
+.App {
+  background: rgb(177, 200, 222);
+  overflow-x: hidden;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,128 @@
+.login-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: #C9DAE6; /* Add a background color to the page */
+    padding: 0 50px; /* Add padding for some spacing on the sides */
+}
+
+.logcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 450px;
+    background: #C9DAE6;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.text {
+    color: #284fa8;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #284fa8;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    background: #f6f4f4;
+    border-radius: 6px;
+}
+
+.input img {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color: #797979;
+    outline: none;
+}
+
+.forgot-password {
+    padding-left: 15px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: #284fa8;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    margin-top: 30px; 
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #284fa8;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #284fa8;
+    color: #ffffff;
+}
+
+#connect {
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+}
+#vector1, #vector2 #connect {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+  }
+  
+ #vector1 {
+    top: 200px;
+    left: 0px;
+}
